@@ -1,0 +1,27 @@
+body{
+	background-color: #E0F2F7;
+	background-image: url("../img/gradiente.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.header-title{
+	background-color: white;
+	color: rgb(0,114,188);
+}
+
+.header-mdls{
+	background-color: rgb(0,114,188);
+	color: white;
+	padding: 10px 10px;
+	text-align: center;
+}
+
+.header-mdls-item{
+	cursor: pointer;
+}
+
+.header-mdls-item img{
+	border:solid;
+	border-width: 1px;
+}

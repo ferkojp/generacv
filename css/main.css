@@ -1,0 +1,309 @@
+body{
+	color: rgb(0,114,188);
+	background-color: #E0F2F7;
+	background-image: url("../img/gradiente.jpg");
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+input{
+	text-align: center;
+	font-weight: bold;
+}
+
+.modal{
+	position: absolute;
+	z-index: 1;
+	background-color: black;
+	border-radius: 10px;
+	color: white;
+	opacity: .7;
+	width: 100%;
+	height: 100%;
+	align-content: center;
+}
+
+.close-modal{
+	position: absolute;
+	top: 10px;
+	right: 50px;
+	font-size: 50px;
+	cursor: pointer;
+}
+
+
+header{
+	border-bottom: solid;
+	border-width: 1px;
+	background-color: white;
+}
+
+.menu-1{
+	list-style: none;
+	font-family: "Rockwell", "arial";
+	font-weight: bold;
+	font-size: 17px;
+}
+.item{
+	float: left;
+	padding: 20px;
+	cursor: pointer;
+	background-color: white;
+}
+
+.item:hover{
+	background-color: rgb(0,114,188);
+	color: white;
+	border-bottom: solid;
+	border-bottom-color: black;
+}
+
+.item-active{
+	float: left;
+	padding: 20px;
+	cursor: pointer;
+	background-color: rgb(0,114,188);
+	color: white;
+	border-bottom: solid;
+	border-bottom-color: black;
+}
+
+
+.icon-user{
+	padding: 22px 20px;
+	size: 18px;
+	text-align: center;
+	font-weight: bold;
+	color: white;
+	cursor: pointer;
+	background-color: black;
+	border-bottom: solid;
+	border-bottom-color: black;
+}
+.icon-user:hover{
+	color:red;
+	text-decoration: underline;
+}
+
+#sesion-form{
+	text-align: right;
+	padding: 5px;
+	background-color: white;
+}
+
+.input-group-addon{
+	background-color: #A9E2F3;
+}
+
+.hide-sesion{
+	cursor:pointer;
+}
+
+.section-1{
+	background-image: url("../img/section.jpg");
+	background-size: 100% 100%;
+	padding: 40px 0px;
+	border: solid;
+	border-width: 1px;
+}
+
+.section-1 h2{
+	color: white;
+	font-family: "News706 BT", "verdana";
+	text-shadow: -1px -1px 0px #000, 1px 1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000;
+}
+
+.section-1 p{
+	color: white;
+	font-family: "News706 BT", "verdana";
+	font-size: 23px;
+	line-height: 70px;
+	text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+
+}
+
+.button-start{
+	padding: 10px 30px;
+	font-family: "Rockwell", "arial";
+	font-weight: bold;
+	font-size: 20px;
+	color: white;
+	background-color: rgb(0,114,188);
+	border-radius: 10px;
+}
+
+.button-start:hover{
+	color:rgb(0,114,188);
+	background-color: white;
+}
+
+.cv-form{
+	top: 2%;
+	left: 7%;
+	position: absolute;
+	z-index: 1;
+}
+
+.cv-content-form{
+	background-color: white;
+	text-align: center;
+	overflow-y: auto;
+	overflow-x: hidden;
+	border-radius: 10px;
+	height: 620px;
+
+}
+
+.cv-content-form h1{
+	color: black;
+	text-align: left;
+}
+
+.add-photo{
+	cursor: pointer;
+}
+.add-photo:hover{
+	opacity: .5;
+	box-shadow: 0px 0px 10px #2ECCFA;
+}
+
+/*Icons input text*/
+#puesto{
+	background-image: url('../img/icons/profesion.png');
+	background-repeat: no-repeat;
+}
+
+#tel_fijo{
+	background-image: url('../img/icons/phone.png');
+	background-repeat: no-repeat;
+}
+#tel_movil{
+	background-image: url('../img/icons/phonemovil.png');
+	background-repeat: no-repeat;
+}
+#mail{
+	background-image: url('../img/icons/arroba.png');
+	background-repeat: no-repeat;
+}
+
+#fecha{
+	background-image: url('../img/icons/fecha.png');
+	background-repeat: no-repeat;
+}
+
+#edad{
+	background-image: url('../img/icons/edad.png');
+	background-repeat: no-repeat;
+}
+
+#facebook{
+	background-image: url('../img/icons/facebook.png');
+	background-repeat: no-repeat;
+}
+
+#twitter{
+	background-image: url('../img/icons/twitter.png');
+	background-repeat: no-repeat;
+}
+
+#linkedin{
+	background-image: url('../img/icons/linkedin.png');
+	background-repeat: no-repeat;
+}
+
+#otros{
+	background-image: url('../img/icons/otros.png');
+	background-repeat: no-repeat;
+}
+
+#puesto_ocupado{
+	background-image: url('../img/icons/puesto_ocupado.png');
+	background-repeat: no-repeat;
+}
+#empresa_antigua{
+	background-image: url('../img/icons/empresa_antigua.png');
+	background-repeat: no-repeat;
+}
+#titulo_obtenido{
+	background-image: url('../img/icons/titulo_obtenido.png');
+	background-repeat: no-repeat;
+}
+#centro_formacion{
+	background-image: url('../img/icons/centro_formacion.png');
+	background-repeat: no-repeat;
+}
+#natal{
+	background-image: url('../img/icons/natal.png');
+	background-repeat: no-repeat;
+}
+
+#extranjero{
+	background-image: url('../img/icons/extranjero.png');
+	background-repeat: no-repeat;
+}
+#in_aplicacion{
+	background-image: url('../img/icons/aplicacion.png');
+	background-repeat: no-repeat;
+}
+#in_comentarios{
+	background-image: url('../img/icons/comentarios.png');
+	background-repeat: no-repeat;
+}
+
+
+#tab_acordeon{
+	background-color: rgb(0,114,188);
+	padding: 10px;
+	margin-bottom: 5px;
+	color: white;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.add-new-content{
+	padding-bottom: 5px;
+	border-bottom: solid;
+	border-width: 1px;
+	margin-bottom: 10px;
+}
+
+.add-new,.add-new-form, .add-new-app{
+	cursor: pointer;
+}
+.add-new:hover{
+	opacity: .7;
+}
+
+#formacion-general{
+	font-weight: bold;
+}
+
+
+.formacion-subtitle{
+	color:white;
+	background-color: rgb(0,114,188);
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+.ayuda{
+	background-color: rgb(0,114,188);
+	color: white;
+	width: 100%;
+	height: 620px;
+	font-size: 15px;
+	line-height: 20px;
+	border:solid;
+	border-radius: 10px;
+	padding: 10px 10px;	
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+footer{
+	background-color: black;
+	border: solid;
+	border-width: 1px;
+	padding-left: 5px;
+}

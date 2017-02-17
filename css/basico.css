@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/12/2016, 11:28:00 PM
+    Author     : fjp
+*/
+
+body{
+    /*text-align: center;*/
+}
+b{
+    margin-right: 1px;
+}
+
+td{
+    width: 30%;
+}
+
+#imagen_perfil{
+    width: 100px;
+    height: 130px;
+    border: solid;
+    border-width: 1px;
+}
+#seccion-puesto{
+    width: 100%;
+    padding: 2px 0px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: solid;
+    margin-bottom: 10px;
+}
+
+#seccion-personales{
+    padding: 10px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+.seccion-personales label{
+    font-weight: bold;
+}
+.nombre-seccion{
+    background-color: black;
+    color:white;
+    width: 100%;
+    border:solid;
+    border-width: 1px;
+    padding: 2px 0px;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.seccion-experiencia.seccion-formacion.seccion-informatica{
+    padding: 10px 0px;
+    font-size: 17px;
+    text-align: left;
+}
+#nueva-experiencia{
+    padding: 10px 0px;
+    border-bottom:  solid;
+    border-width: 1px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#nueva-formacion{
+    padding: 10px;
+    border-bottom:  solid;
+    border-width: 1px;
+    margin-bottom: 5px;
+}
+
+#idiomas{
+    padding: 10px 0px;
+    text-align: left;
+}
+
+#objetivo-personal{
+    padding: 10px 0px;
+    text-align: justify;
+}
