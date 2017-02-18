@@ -422,7 +422,7 @@
                     GeneraCV es un producto desarrollado y en <br>
                     constante mantenimiento por sus creadores. <br>
                     Todos los derechos reservados, <br>
-                    Zacatecas 2016, FkoSystems.
+                    FkoSystems.
                 </p>
             </div>
         </footer>
