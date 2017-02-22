@@ -307,6 +307,20 @@ footer{
 	border: solid;
 	border-width: 1px;
 	padding-left: 5px;
-	padding-bottom: 50px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;  
+	color: #d5d5d5;
+	padding: 20px;
+}
 
+}
+.logo_info{
+	margin: 10px 0px;
+}
+
+.derechos,.redes{
+	margin: 20px 0px;
+}
+
+.red{
+	cursor: pointer;
 }

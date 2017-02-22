@@ -11,16 +11,17 @@
         <!--Window type modal backroun black with opacity-->
         <div class="modal" hidden>
             <span class="close-modal">
-                &times
+               &times
             </span>
         </div>
         <!--Header-->
         <header class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <img src="img/logo.png" alt="logo_generaCV" class="img-responsive" width="200px">
+                <div class="col-xs-12 col-sm-12 col-md-4" align="center">
+                    <img src="img/logo.png" alt="logo_generaCV" class="img-responsive" width="250px" height="100px">
                 </div>
-                <div class="col-md-5 col-md-offset-1">
+                <!--
+                <div class="col-md-visible col-lg-visible col-md-5 col-md-offset-1">
                     <ul class="menu-1">
                         <li class="item-active">Nuevo</li>
                         <li class="item">Diseños</li>
@@ -34,6 +35,7 @@
                         Iniciar sesión 
                     </div>
                 </div>
+                -->
             </div>
         </header>
         <!--Div with sesion form-->
@@ -67,7 +69,7 @@
                     <p>* Sugerencias para un CV completo</p>
                     <p>* Diseños Profesionales</p>
                     <p>* Facilidad de redacción</p>
-                    <button type="button" class="button-start">Comenzar</button>
+                    <button type="button" class="button-start">Click para comenzar</button>
                 </section>
             </div>
         </div>
@@ -75,7 +77,7 @@
         <!--CV form-->
         <div class="container cv-form" hidden>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 hidden-xs  hidden-sm">
                     <div class="ayuda">
                         <span class="contenido_ayuda_datos">
                             <h4 align="center"><b>Datos Personales</b></h4>
@@ -148,7 +150,7 @@
                         <hr>
                     </div>
                 </div>
-                <div class="col-md-8 cv-content-form">
+                <div class="col-xs-12 col-sm-12 col-md-8 cv-content-form">
                     <div class="col-md-12">
                         <!--Datos personales-->
                         <h1 id="datos_personales">Datos Personales</h1>
@@ -415,15 +417,29 @@
         <!--Footer-->
         <footer class="container">
             <div class="row footer" align="center">
-                <span>
-                    <img src="img/icons/creation.png" alt="" style="padding: 15px 10px;">
-                </span>
-                <p style="color: white; font-size: 10px; margin-top: -8px;">
-                    GeneraCV es un producto desarrollado y en <br>
-                    constante mantenimiento por sus creadores. <br>
-                    Todos los derechos reservados, <br>
-                    FkoSystems.
-                </p>
+                <div class="col-md-3 logo_info">
+                   <img src="img/icons/logo_fko.png" alt="logo_fko">
+                </div>
+                <div class="col-md-4 derechos">
+                    <label>2017, fkosystems. Todos los derechos reservados.</label>
+                </div>
+                <div class="col-md-5 redes">
+                    <div class="col-md-2">
+                        <img class="img-responsive red" src="img/social/linkedin.png" alt="enlace_linkedin" id="link_link">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-responsive red" src="img/social/googlemas.png" alt="enlace_googlemas" id="link_goo">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-responsive red" src="img/social/face.png" alt="enlace_facebook" id="link_face">
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-responsive red" src="img/social/twitter.png" alt="enlace_twitter" id="link_twitter">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive red" src="img/social/github.png" alt="enlace_github" id="link_github">
+                    </div>
+                </div>
             </div>
         </footer>
 
