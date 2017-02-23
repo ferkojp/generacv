@@ -17,25 +17,15 @@
         <!--Header-->
         <header class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-4" align="center">
+                <div class="col-xs-8 col-sm-8 col-md-4" align="center">
                     <img src="img/logo.png" alt="logo_generaCV" class="img-responsive" width="250px" height="100px">
                 </div>
-                <!--
-                <div class="col-md-visible col-lg-visible col-md-5 col-md-offset-1">
+                <div class="col-xs-4 col-sm-4 col-md-8">
                     <ul class="menu-1">
-                        <li class="item-active">Nuevo</li>
-                        <li class="item">Diseños</li>
-                        <li class="item">Ayuda</li>
-                        <li class="item">Contacto</li>
+                        <li class="item"><span class="hidden-xs hidden-sm">Contacto</span> <img src="img/icons/contacto.png"></li>
+                        <li class="item"><span class="hidden-xs hidden-sm">Buzón de sugerencias</span> <img src="img/icons/buzon.png"></li>
                     </ul>
                 </div>
-                <div class="col-md-2">
-                    <div class="icon-user">
-                        <span class="glyphicon glyphicon-user"></span>
-                        Iniciar sesión 
-                    </div>
-                </div>
-                -->
             </div>
         </header>
         <!--Div with sesion form-->

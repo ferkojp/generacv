@@ -33,28 +33,6 @@ $(document).ready(function(){
 
   });
 
-	//mosue is over first item menu 
-	$(".item").mouseover(function(){
-		$(".item-active").css({"background-color":"white","color":"rgb(0,114,188)",
-			"border-bottom":"solid","border-bottom-color": "white"
-		});
-	});
-	//when mouse is out 
-	$(".item").mouseleave(function(){
-		$(".item-active").css({"background-color":"rgb(0,114,188)","color":"white",
-			"border-bottom":"solid","border-bottom-color": "black"
-		});
-	});
-
-	//show div with sesion form
-	$(".icon-user").click(function(){
-		$("#sesion-form").slideToggle();
-	});
-
-	//hide div with sesion form
-	$(".hide-sesion").click(function(){
-		$("#sesion-form").slideUp();
-	});
 
 	//open cv-form and modal
 	$(".button-start").click(function(){

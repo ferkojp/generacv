@@ -39,64 +39,24 @@ header{
 }
 
 .menu-1{
+	color: white;
 	list-style: none;
 	font-family: "Rockwell", "arial";
 	font-weight: bold;
 	font-size: 17px;
 }
+
 .item{
-	float: left;
-	padding: 20px;
+	float: right;
+	margin: 25px 20px;
+	background-color: rgb(67,139,251);
+	padding: 5px;
+	border-radius: 5px;
 	cursor: pointer;
-	background-color: white;
 }
 
 .item:hover{
-	background-color: rgb(0,114,188);
-	color: white;
-	border-bottom: solid;
-	border-bottom-color: black;
-}
-
-.item-active{
-	float: left;
-	padding: 20px;
-	cursor: pointer;
-	background-color: rgb(0,114,188);
-	color: white;
-	border-bottom: solid;
-	border-bottom-color: black;
-}
-
-
-.icon-user{
-	padding: 22px 20px;
-	size: 18px;
-	text-align: center;
-	font-weight: bold;
-	color: white;
-	cursor: pointer;
-	background-color: black;
-	border-bottom: solid;
-	border-bottom-color: black;
-}
-.icon-user:hover{
-	color:red;
-	text-decoration: underline;
-}
-
-#sesion-form{
-	text-align: right;
-	padding: 5px;
-	background-color: white;
-}
-
-.input-group-addon{
-	background-color: #A9E2F3;
-}
-
-.hide-sesion{
-	cursor:pointer;
+	opacity: .6;
 }
 
 .section-1{
