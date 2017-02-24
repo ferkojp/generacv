@@ -17,17 +17,31 @@
         <!--Header-->
         <header class="container">
             <div class="row">
-                <div class="col-xs-8 col-sm-8 col-md-4" align="center">
+                <div class="col-xs-12 col-sm-12 col-md-3 co-lg-3" align="center">
                     <img src="img/logo.png" alt="logo_generaCV" class="img-responsive" width="250px" height="100px">
                 </div>
-                <div class="col-xs-4 col-sm-4 col-md-8">
-                    <ul class="menu-1">
-                        <li class="item"><span class="hidden-xs hidden-sm">Contacto</span> <img src="img/icons/contacto.png"></li>
-                        <li class="item"><span class="hidden-xs hidden-sm">Buzón de sugerencias</span> <img src="img/icons/buzon.png"></li>
-                    </ul>
+                <div class="hidden-xs hidden-sm col-sm-12 col-md-8 col-md-offset-1">
+                    <div class="menu-1">
+                        <span class="col-md-4"><label class="item">Contacto</label></span>
+                        <span class="col-md-4"><label class="item">Buzón de sugerencias</label></span>
+                        <span class="col-md-4"><label class="item">¿Necesitas ayuda?</label></span>
+                    </div>
                 </div>
-            </div>
+            </div> 
         </header>
+        <div class="container hidden-md hidden-lg">
+            <div class="row" align="center">
+                <div class="col-xs-4 col-sm-4" id="item-min">
+                    <img src="img/icons/contacto.png" alt="icono_contacto" class="img-responsive">
+                </div>
+                <div class="col-xs-4 col-sm-4" id="item-min">
+                    <img src="img/icons/buzon.png" alt="icono_sugerencias" class="img-responsive">                
+                </div>
+                <div class="col-xs-4 col-sm-4" id="item-min">
+                    <img src="img/icons/ayuda.png" alt="icono_ayuda" class="img-responsive"> 
+                </div>
+            </div>                
+        </div>
         <!--Div with sesion form-->
         <div class="container" id="sesion-form" hidden>
             <form action="#" class="form-inline">
@@ -187,12 +201,16 @@
                                 <input type="mail" class="form-control" placeholder="Correo electrónico" id="mail" name="correo">
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-3">
+                            <label for="fecha">Fecha de nacimiento :</label>
+                        </div>
+                        <div class="col-md-5">
                             <div class="form-group">
+
                                 <input type="date" class="form-control" placeholder="Fecha de nacimiento" id="fecha" name="fecha_nacimiento" required>
                             </div>
                         </div>
-                        <div class="col-md-4 col-md-offset-1">
+                        <div class="col-md-4">
                             <div class="form-group">
                                 <input type="number" class="form-control" placeholder="Edad" id="edad" name="edad"required>
                             </div>
@@ -403,30 +421,50 @@
                 </div>
             </div>
         </div>
+        <!--Desplegados menu principal-->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 seccion">
+                    <label id="titulo-seccion">
+                    <span class="glyphicon glyphicon-chevron-right"></span> Ayuda
+                    </label>
+                </div>
+                <div class="col-md-12 seccion">
+                    <label id="titulo-seccion">
+                    <span class="glyphicon glyphicon-chevron-right"></span> Quejas y sugerencias
+                    </label>
+                </div>
+                <div class="col-md-12 seccion">
+                    <label id="titulo-seccion">
+                    <span class="glyphicon glyphicon-chevron-right"></span> Información de contacto
+                    </label>
+                </div>
+            </div>
+        </div>
 
         <!--Footer-->
         <footer class="container">
             <div class="row footer" align="center">
-                <div class="col-md-3 logo_info">
+                <div class="col-xs-12 col-sm-12 col-md-3 logo_info">
                    <img src="img/icons/logo_fko.png" alt="logo_fko">
                 </div>
-                <div class="col-md-4 derechos">
+                <div class="hidden-xs hidden-sm col-md-4 derechos">
                     <label>2017, fkosystems. Todos los derechos reservados.</label>
                 </div>
-                <div class="col-md-5 redes">
-                    <div class="col-md-2">
+                <div class="col-xs-12 col-sm-12 col-md-5 redes">
+                    <div class="col-xs-2 col-sm-2 col-md-2">
                         <img class="img-responsive red" src="img/social/linkedin.png" alt="enlace_linkedin" id="link_link">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-xs-2 col-sm-2 col-md-2">
                         <img class="img-responsive red" src="img/social/googlemas.png" alt="enlace_googlemas" id="link_goo">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-xs-2 col-sm-2 col-md-2">
                         <img class="img-responsive red" src="img/social/face.png" alt="enlace_facebook" id="link_face">
                     </div>
-                    <div class="col-md-2">
+                    <div class="col-xs-2 col-sm-2 col-md-2">
                         <img class="img-responsive red" src="img/social/twitter.png" alt="enlace_twitter" id="link_twitter">
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-xs-4 col-sm-4 col-md-4">
                         <img class="img-responsive red" src="img/social/github.png" alt="enlace_github" id="link_github">
                     </div>
                 </div>
