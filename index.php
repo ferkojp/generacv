@@ -29,7 +29,7 @@
                 </div>
             </div> 
         </header>
-        <div class="container hidden-md hidden-lg">
+        <div class="container hidden-md hidden-lg" id="menu-min">
             <div class="row" align="center">
                 <div class="col-xs-4 col-sm-4" id="item-min">
                     <img src="img/icons/contacto.png" alt="icono_contacto" class="img-responsive">
